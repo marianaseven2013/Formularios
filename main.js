@@ -11,10 +11,10 @@ div_formularios.className = "div-formularios";
 
 //Lista de textos
 let formularios = [
-    {nombre: "login", link:"http:"},
-    {nombre: "login", link:"http:"},
-    {nombre: "login", link:"http:"},
-    {nombre: "login", link:"http:"},
+    {nombre: "login", link:"componentes/login/login.html"},
+    {nombre: "login", link:"#"},
+    {nombre: "login", link:"#"},
+    {nombre: "login", link:"#"},
 
 ];
 
