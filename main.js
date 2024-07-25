@@ -12,11 +12,14 @@ div_formularios.className = "div-formularios";
 //Lista de textos
 let formularios = [
     {nombre: "login", link:"componentes/login/login.html"},
-    {nombre: "login", link:"#"},
-    {nombre: "login", link:"#"},
-    {nombre: "login", link:"#"},
 
-];
+    {nombre: "Formulario de Contacto", link:"Componentes/formularioDeContacto/formularioDeContacto.html"},
+    {nombre: "Formulario de Regristro", link:"componentes/formularioDeRegistro/formularioDeRegistro.html"},
+    {nombre: "Formulario De Busqueda", link:"componentes/formularioDeBusqueda/formularioDeBusqueda.html"},
+    {nombre: "Formulario de Pedido de Compras", link:"componentes/formularioDePedidoCompras/formularioDePedido.html"},
+    {nombre: "Formulario de Comentarios de Reseñas", link:"componentes/formularioDeComentariosReseñas/formularioComentario.html"},
+
+];  
 
 // forEach
 

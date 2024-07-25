@@ -7,9 +7,10 @@
 
  .div-formularios {
     width: 100%;
-    max-width: 60rem;
+    max-width: 90rem;
     padding: 1rem;
     margin-top: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -19,7 +20,7 @@
 
 .div-formularios .Item {
     text-decoration: none;
-    color: rgb(41, 41, 41);
+    color: rgb(20, 20, 20);
     border: 1px solid gray;
     border-radius: 1px;
     font-size: 1.4rem;
