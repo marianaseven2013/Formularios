@@ -18,7 +18,7 @@
 
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: 3rem 5rem 5rem 2rem 3rem 5rem 5rem ;
     gap: 1rem;
 }
 
@@ -27,21 +27,19 @@
     font-weight: 2rem;
     color: black;
     font-size: 2rem;
-    
 }
 
 .blox-login h2 {
     grid-column: 1/9;
-/*     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- */
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
+    color: rgb(134, 134, 134);
 }
 
 .btn-facebook{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1rem;
+    height: 3rem;
 }
 
 .blox-login .btn-facebook {
@@ -51,33 +49,30 @@
     border-radius: 3px;
     font-weight: 2px;
     font-size: 7px;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .blox-login .btn-facebook img {
     height: 20px;
     border-radius: 10px;
     justify-content: center;
-   
-
 }
 
 .btn-xing {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1rem;
     font-weight: 2rem;
-
+    height: 3rem;
 }
 
 .blox-login .btn-xing {
     grid-column: 5/9;
-    background-color: rgb(28, 51, 28);
+    background-color: rgb(9, 71, 73);
     font-weight: 3px;
     color: white;
     border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .blox-login .btn-xing img {
@@ -88,5 +83,114 @@
 
 .blox-login span {
     grid-column: 4/5;
+    font-size: 1.3rem;
 }
 
+#login{
+    grid-column: 1/9;
+}
+
+#login label{
+    color: gray;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#login input{
+    height: 2rem;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#login .mail{
+    border-bottom: 1px solid grey;
+}
+
+#login .pass{
+    border-bottom: 1px solid grey;
+}
+
+#login .opciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login .opciones label{
+    font-size: 1.3rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+#login .opciones .forgot {
+    font-size: 1.2rem;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* #login .opciones label input{
+    width: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #4158D0;
+}
+ */
+ #login .opciones input {
+    font-size: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+#login .botones button{
+    border: none;
+    width: 12rem;
+    border-radius: 3px;
+}
+
+#login .hola {
+    border-bottom: 1px solid rgb(151, 151, 151);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login .hola input:focus {
+    border-bottom: 1px solid rgb(209, 195, 148);
+}
+
+#login .botones .btn-Sig{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(172, 171, 171);
+    height: 3.5rem;
+    margin-left: 2rem;
+}
+
+#login .botones .btn-log{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    box-shadow: 2px 5px 8px 2px rgb(196, 195, 195);
+    height: 3.5rem;
+}
+
+.box-login .formulario .nngr{
+    margin-top: 2rem;
+}
+
+.ppe .azul {
+    color: skyblue;
+}
+
+.negris {
+    color: black;
+}
+
+.img-banner {
+    width: 100%;
+    height: 100%;
+}
